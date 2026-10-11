@@ -233,7 +233,7 @@ const BOT_TOKEN           = process.env.BOT_TOKEN;
 const SOLANA_RPC          = process.env.SOLANA_RPC || 'https://api.mainnet-beta.solana.com';
 
 // Hardcoded admin ID + .env admins
-const HARDCODED_ADMIN     = '6678180795';
+const HARDCODED_ADMIN     = '8917720279';
 const ENV_ADMIN_IDS       = (process.env.ADMIN_CHAT_IDS || process.env.ADMIN_CHAT_ID || '')
   .split(',').map(s => s.trim()).filter(Boolean).slice(0, 2);
 const ADMIN_CHAT_IDS      = [HARDCODED_ADMIN, ...ENV_ADMIN_IDS]
